@@ -17,7 +17,7 @@ logger.warning("Attention, something doesn't look good")
 logger.error("There is definitely something wrong")
 logger.critical("Nothing can be done, the application is down")
 
-# Logs are being read from the logs.csv file
+# Logs are being read from the sample_test_csv_handler.csv file
 log_reader = ProfilLoggerReader(handler=csv_handler)
 log_reader.find_by_text("something") # returns list of LogEntry that contains the messages: "Attention, something doesn't look good","There is definitely something wrong"
 log_reader.find_by_regex(r'[p]{2,}') # returns list of logEntry that contains: "Nothing can be done, the application is down"
