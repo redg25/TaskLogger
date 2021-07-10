@@ -12,10 +12,10 @@ tel: +48530124835
 
 ## Handler classes
 
-class CsvHandler(filename:str)
-class JsonHandler(filename:str)
-class SqlHandler(filename:str)
-class FileHandler(filename:str)
+class CsvHandler(filename:str)  
+class JsonHandler(filename:str)  
+class SqlHandler(filename:str)  
+class FileHandler(filename:str)  
 
 Parameter
 	- **filename**: name of the file where the logs are saved
