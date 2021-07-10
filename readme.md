@@ -6,9 +6,9 @@ loggertask is a module which allows:
 
 ## Author
 
-Regis Corblin
-email: regiscorblin@yahoo.fr
-tel: +48530124835
+Regis Corblin  
+email: regiscorblin@yahoo.fr  
+tel: +48530124835  
 
 ## Handler classes
 
@@ -99,5 +99,5 @@ log_reader.group_by_month(start_date='2015/01/01 01:01:01') #returns dictionary 
 ```
 ## Testing
 
-You can use the sample of logs sample_test_csv_handler.csv (available on this repository) to run tests on log reader methods
+You can use the sample of logs sample_test_csv_handler.csv (available on this repository) to run tests on log reader methods  
 The file Usage_example.py runs all methods of logs creation for all types of handlers and all log reader methods for the csv test file.
