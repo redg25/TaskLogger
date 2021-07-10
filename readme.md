@@ -1,10 +1,10 @@
-#loggertask
+# loggertask
 
 loggertask is a module which allows:
 - Handling of logs on 4 different file types:csv, json, sqlite, txt.
 - Logs retrieval with predefined queries.
 
-##Handler classes
+## Handler classes
 
 class CsvHandler(filename:str)
 class JsonHandler(filename:str)
@@ -15,9 +15,9 @@ Parameter
 	- **filename**: name of the file where the logs are saved
 
 Ex: 
-'''python
+```python
 myhandler = CsvHandler('logs.csv')
-'''
+```
 
 ## Logger class
 
@@ -27,9 +27,9 @@ ProfilLogger(handlers: List[Handler])
 	- **handlers**: List of handlers that will be responsible for saving and reading log entries
 
 Ex:
-'''python
+```python
 logger = ProfilLogger([myhandler,anotherhandler])
-'''
+```
 
 **Methods**
 | Method signature | Description |
@@ -44,10 +44,10 @@ logger = ProfilLogger([myhandler,anotherhandler])
 *Order of criticality as above*
 
 Ex:
-'''python
+```python
 logger.set_log_level('INFO')
 logger.warning('This is a warning')
-'''
+```
 
 ## Log reader class
 
