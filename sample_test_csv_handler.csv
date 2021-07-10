@@ -1,0 +1,29 @@
+date,level,message
+2021/05/10 16:42:35,WARNING,"Attention, something doesn't look good"
+2021/07/10 16:42:35,DEBUG,There is definitely something wrong
+2021/07/10 16:42:35,CRITICAL,"Nothing can be done, the application is down"
+2021/07/10 10:42:52,WARNING,"Attention, something doesn't look good"
+2021/07/10 16:42:52,ERROR,There is definitely something wrong
+2021/07/10 16:42:52,CRITICAL,"Nothing can be done, the application is down"
+2021/04/10 16:42:35,WARNING,"Attention, something doesn't look good"
+2021/07/10 16:42:35,INFO,There is definitely something wrong
+2021/07/10 16:42:35,CRITICAL,"Nothing can be done, the application is down"
+2021/07/10 16:42:52,WARNING,"Attention, something doesn't look good"
+2021/07/10 16:42:52,ERROR,There is definitely something wrong
+2021/05/10 16:42:52,CRITICAL,"Nothing can be done, the application is down"
+2021/07/10 16:42:35,WARNING,"Attention, something doesn't look good"
+2021/07/10 13:42:35,ERROR,There is definitely something wrong
+2021/07/10 16:42:35,CRITICAL,"Nothing can be done, the application is down"
+2020/05/10 16:42:52,DEBUG,"Attention, something doesn't look good"
+2021/07/10 16:42:52,ERROR,There is definitely something wrong
+2021/07/10 16:42:52,CRITICAL,"Nothing can be done, the application is down"
+2021/07/10 14:42:35,WARNING,"Attention, something doesn't look good"
+2021/07/10 16:42:35,ERROR,There is definitely something wrong
+2021/07/10 16:42:35,CRITICAL,"Nothing can be done, the application is down"
+2021/07/10 17:15:25,CRITICAL,"Nothing can be done, the application is down"
+2021/07/10 17:17:01,WARNING,"Attention, something doesn't look good"
+2021/07/10 17:17:01,ERROR,There is definitely something wrong
+2019/07/10 17:17:01,CRITICAL,"Nothing can be done, the application is down"
+2019/07/10 17:18:09,WARNING,"Attention, something doesn't look good"
+2021/07/10 17:18:09,ERROR,There is definitely something wrong
+2021/07/10 17:18:09,CRITICAL,"Nothing can be done, the application is down"
