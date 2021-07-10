@@ -130,7 +130,7 @@ class SqlHandler():
 
     def get_logs(self):
         """
-        Get all log entries for the CsvHandler object.
+        Get all log entries for the SqlHandler object.
         :return: List of dictionaries [{'Date':...,'Level':...,'Message':...}]
         """
         # Retrieve csv file log as a list of dictionaries
@@ -176,7 +176,7 @@ class FileHandler():
 
     def get_logs(self):
         """
-        Get all log entries for the CsvHandler object.
+        Get all log entries for the FileHandler object.
         :return: List of dictionaries [{'Date':...,'Level':...,'Message':...}]
         """
         # Retrieve csv file log as a list of dictionaries
