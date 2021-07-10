@@ -17,7 +17,7 @@ class JsonHandler(filename:str)
 class SqlHandler(filename:str)  
 class FileHandler(filename:str)  
 
-Parameter
+Parameter  
 	- **filename**: name of the file where the logs are saved
 
 Ex: 
