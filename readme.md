@@ -4,6 +4,12 @@ loggertask is a module which allows:
 - Handling of logs on 4 different file types:csv, json, sqlite, txt.
 - Logs retrieval with predefined queries.
 
+## Author
+
+Regis Corblin
+email: regiscorblin@yahoo.fr
+tel: +48530124835
+
 ## Handler classes
 
 class CsvHandler(filename:str)
@@ -91,3 +97,7 @@ log_reader.find_by_regex(r'[p]{2,}') # returns list of logEntry that contains: "
 log_reader.group_by_level(start_date='2015/01/01 01:01:01',end_date='2021/01/01 01:01:01') #returns dictionary of LogEntry grouped by level that were logged between the specified time frame.
 log_reader.group_by_month(start_date='2015/01/01 01:01:01') #returns dictionary of LogEntry grouped by month that were logged after the specified start date.
 ```
+## Testing
+
+You can use the sample of logs sample_test_csv_handler.csv (available on this repository) to run tests on log reader methods
+The file Usage_example.py runs all methods of logs creation for all types of handlers and all log reader methods for the csv test file.
