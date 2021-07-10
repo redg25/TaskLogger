@@ -388,12 +388,6 @@ def _validate_dates(start_date: str, end_date: str):
 # Check user input and convert dates to datetime type from str type
 def _convertDateInput(date: str,date_type: str):
     return dt.strptime(date, '%Y/%m/%d %H:%M:%S')
-    # try:
-    #     return dt.strptime(date, '%Y/%m/%d %H:%M:%S')
-    # except Exception as e:
-    #
-    #     print(f'Validation error: Date format for {date_type} should be: YYYY/MM/DD HH:MM:SS')
-    #     raise
 
 # Filter entry logs based on user input time frame
 def _filter_by_date(dict_log: list, start_date: str, end_date: str):
