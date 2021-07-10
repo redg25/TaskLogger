@@ -29,7 +29,7 @@ myhandler = CsvHandler('logs.csv')
 
 ProfilLogger(handlers: List[Handler])
 
-**Parameter**
+**Parameter**  
 	- **handlers**: List of handlers that will be responsible for saving and reading log entries
 
 Ex:
@@ -59,7 +59,7 @@ logger.warning('This is a warning')
 
 ProfilLoggerReader(handler: Handler)`
 
-**Parameter**
+**Parameter**  
 	- **handler**: Handler from which entries will be extracted
 
 **Methods**
