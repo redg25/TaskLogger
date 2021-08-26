@@ -7,8 +7,6 @@ loggertask is a module which allows:
 ## Author
 
 Regis Corblin  
-email: regiscorblin@yahoo.fr  
-tel: +48530124835  
 
 ## Handler classes
 
