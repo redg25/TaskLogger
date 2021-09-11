@@ -10,6 +10,7 @@ LEVELS = ('DEBUG', 'INFO', 'WARNING', 'ERROR','CRITICAL')
 
 class CsvHandler():
     """
+    Test
     Class to create the log handler on a csv file.
     Create a new csv file.
     If the file already exists, it will be amended with the new log entries
